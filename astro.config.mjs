@@ -28,7 +28,6 @@ import { pluginCustomCopyButton } from "./src/plugins/expressive-code/custom-cop
 export default defineConfig({
 	site: "https://Happy-Feet-hhh.github.io",
 	base: '/blog',
-	base: "/",
 	trailingSlash: "always",
 	integrations: [
 		tailwind({
