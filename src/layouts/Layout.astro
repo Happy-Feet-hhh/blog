@@ -3,8 +3,10 @@ import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 
+import { Image } from "astro:assets";
 import ConfigCarrier from "@components/ConfigCarrier.astro";
 import { profileConfig, siteConfig } from "@/config";
+import backgroundImage from "../assets/images/动漫风景.png";
 import {
 	AUTO_MODE,
 	BANNER_HEIGHT,
@@ -151,6 +153,16 @@ const bannerOffset =
 	<body class=" min-h-screen transition " class:list={[{"lg:is-home": isHomePage, "enable-banner": enableBanner}]}
 		  data-overlayscrollbars-initialize
 	>
+	<!-- 全局全屏背景图片 -->
+  <div class="fixed inset-0 z-0 w-full h-full overflow-hidden pointer-events-none">
+    <Image
+      src={backgroundImage}
+      alt="Background"
+      class="w-full h-full object-cover"
+      loading="eager"
+    />
+    <div class="absolute inset-0 bg-black/15 dark:bg-black/50"></div>
+  </div>
 		<ConfigCarrier></ConfigCarrier>
 		<slot />
 
@@ -202,7 +214,10 @@ import {
 	// SizeObserverPlugin,
 	// ClickScrollPlugin
 } from 'overlayscrollbars';
-import {getHue, getStoredTheme, setHue, setTheme} from "../utils/setting-utils";
+import {getHue, getStoredTheme, setHue, setTheme,
+  getOpacity,    // 👈 新增
+  setOpacity     // 👈 新增
+} from "../utils/setting-utils";
 import {pathsEqual, url} from "../utils/url-utils";
 import {
 	BANNER_HEIGHT,
@@ -367,6 +382,7 @@ function init() {
 	// disableAnimation()()		// TODO
 	loadTheme();
 	loadHue();
+	loadOpacity();    // 👈 新增：加载透明度设置
 	initCustomScrollbar();
 	showBanner();
 }

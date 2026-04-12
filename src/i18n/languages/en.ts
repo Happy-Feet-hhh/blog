@@ -25,6 +25,7 @@ export const en: Translation = {
 	[Key.postsCount]: "posts",
 
 	[Key.themeColor]: "Theme Color",
+	[Key.panelOpacity]: "Panel Opacity",  // 👈 新增这一行
 
 	[Key.lightMode]: "Light",
 	[Key.darkMode]: "Dark",

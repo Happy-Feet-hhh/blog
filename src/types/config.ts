@@ -20,6 +20,9 @@ export type SiteConfig = {
 		hue: number;
 		fixed: boolean;
 	};
+	panelOpacity: {
+    	opacity: 1.0, // 默认面板透明度，范围 0 到 1。例如：0=完全透明，1=完全不透明
+  	},
 	banner: {
 		enable: boolean;
 		src: string;
