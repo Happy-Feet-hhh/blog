@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WebGPU笔记/2. 渲染器初始化与WebGPU基本对象.md",
+                "file": "draft.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. 渲染器初始化与WebGPU基本对象"
+              "title": "draft"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WebGPU笔记/2. 渲染器初始化与WebGPU基本对象.md",
+                "file": "draft.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2. 渲染器初始化与WebGPU基本对象 的反向链接列表"
+              "title": "draft 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WebGPU笔记/2. 渲染器初始化与WebGPU基本对象.md",
+                "file": "draft.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2. 渲染器初始化与WebGPU基本对象 的出链列表"
+              "title": "draft 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WebGPU笔记/2. 渲染器初始化与WebGPU基本对象.md",
+                "file": "draft.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2. 渲染器初始化与WebGPU基本对象 的大纲"
+              "title": "draft 的大纲"
             }
           }
         ]
@@ -185,16 +185,21 @@
   },
   "active": "cd7d502d87961678",
   "lastOpenFiles": [
-    "Pasted image 20260413232302.png",
-    "Pasted image 20260413230524.png",
-    "Pasted image 20260413225652.png",
-    "Pasted image 20260413223932.png",
-    "WebGPU笔记/1.WebGPU概念与环境搭建.md",
+    "expressive-code.md",
+    "markdown.md",
+    "video.md",
+    "markdown-extended.md",
+    "draft.md",
+    "WebGPU笔记/Pasted image 20260413215639.png",
+    "WebGPU笔记/Pasted image 20260413230524.png",
+    "WebGPU笔记/Pasted image 20260413225652.png",
+    "WebGPU笔记/Pasted image 20260413223932.png",
+    "WebGPU笔记/Pasted image 20260413220220.png",
     "WebGPU笔记/2. 渲染器初始化与WebGPU基本对象.md",
-    "Pasted image 20260413220220.png",
+    "WebGPU笔记/Pasted image 20260413232302.png",
+    "WebGPU笔记/1.WebGPU概念与环境搭建.md",
     "2026-04-12.md",
     "WebGPU笔记/Pasted image 20260412213748.png",
-    "Pasted image 20260413215639.png",
     "WebGPU笔记/Pasted image 20260412193036.png"
   ]
 }
